@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DECD23661F1CD49300A9607E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DECD23651F1CD49300A9607E /* art.scnassets */; };
+		DECD23681F1CD49300A9607E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD23671F1CD49300A9607E /* ViewController.swift */; };
+		DECD236B1F1CD49300A9607E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECD23691F1CD49300A9607E /* Main.storyboard */; };
+		DECD236D1F1CD49300A9607E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECD236C1F1CD49300A9607E /* Assets.xcassets */; };
+		DECD23701F1CD49300A9607E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECD236E1F1CD49300A9607E /* LaunchScreen.storyboard */; };
+		DECD237B1F1CD49300A9607E /* ARKitPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD237A1F1CD49300A9607E /* ARKitPocTests.swift */; };
+		DECD23861F1CD49300A9607E /* ARKitPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD23851F1CD49300A9607E /* ARKitPocUITests.swift */; };
+		DECD23941F1CD55B00A9607E /* CameraConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD23931F1CD55B00A9607E /* CameraConfig.swift */; };
+		DECD23961F1CD58E00A9607E /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD23951F1CD58E00A9607E /* ARCameraTrackingState.swift */; };
+		DECD23981F1CD5AE00A9607E /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD23971F1CD5AE00A9607E /* VirtualObject.swift */; };
+		DECD23A21F1CD96D00A9607E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD239E1F1CD79400A9607E /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DECD23771F1CD49300A9607E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECD23581F1CD49300A9607E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECD235F1F1CD49300A9607E;
+			remoteInfo = ARKitPoc;
+		};
+		DECD23821F1CD49300A9607E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECD23581F1CD49300A9607E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECD235F1F1CD49300A9607E;
+			remoteInfo = ARKitPoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DECD23601F1CD49300A9607E /* ARKitPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECD23651F1CD49300A9607E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DECD23671F1CD49300A9607E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DECD236A1F1CD49300A9607E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DECD236C1F1CD49300A9607E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DECD236F1F1CD49300A9607E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DECD23761F1CD49300A9607E /* ARKitPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECD237A1F1CD49300A9607E /* ARKitPocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitPocTests.swift; sourceTree = "<group>"; };
+		DECD237C1F1CD49300A9607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECD23811F1CD49300A9607E /* ARKitPocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitPocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECD23851F1CD49300A9607E /* ARKitPocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitPocUITests.swift; sourceTree = "<group>"; };
+		DECD23871F1CD49300A9607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECD23931F1CD55B00A9607E /* CameraConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraConfig.swift; sourceTree = "<group>"; };
+		DECD23951F1CD58E00A9607E /* ARCameraTrackingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraTrackingState.swift; sourceTree = "<group>"; };
+		DECD23971F1CD5AE00A9607E /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		DECD239E1F1CD79400A9607E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DECD23A11F1CD7F000A9607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECD235D1F1CD49300A9607E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECD23731F1CD49300A9607E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECD237E1F1CD49300A9607E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECD23571F1CD49300A9607E = {
+			isa = PBXGroup;
+			children = (
+				DECD23621F1CD49300A9607E /* ARKitPoc */,
+				DECD23791F1CD49300A9607E /* ARKitPocTests */,
+				DECD23841F1CD49300A9607E /* ARKitPocUITests */,
+				DECD23611F1CD49300A9607E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECD23611F1CD49300A9607E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECD23601F1CD49300A9607E /* ARKitPoc.app */,
+				DECD23761F1CD49300A9607E /* ARKitPocTests.xctest */,
+				DECD23811F1CD49300A9607E /* ARKitPocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECD23621F1CD49300A9607E /* ARKitPoc */ = {
+			isa = PBXGroup;
+			children = (
+				DECD239D1F1CD68B00A9607E /* Supporting Files */,
+				DECD239C1F1CD68300A9607E /* Globals */,
+				DECD23991F1CD66D00A9607E /* Model */,
+				DECD239B1F1CD67C00A9607E /* Controller */,
+				DECD239A1F1CD67500A9607E /* View */,
+			);
+			path = ARKitPoc;
+			sourceTree = "<group>";
+		};
+		DECD23791F1CD49300A9607E /* ARKitPocTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECD237A1F1CD49300A9607E /* ARKitPocTests.swift */,
+				DECD237C1F1CD49300A9607E /* Info.plist */,
+			);
+			path = ARKitPocTests;
+			sourceTree = "<group>";
+		};
+		DECD23841F1CD49300A9607E /* ARKitPocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DECD23851F1CD49300A9607E /* ARKitPocUITests.swift */,
+				DECD23871F1CD49300A9607E /* Info.plist */,
+			);
+			path = ARKitPocUITests;
+			sourceTree = "<group>";
+		};
+		DECD23991F1CD66D00A9607E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DECD23971F1CD5AE00A9607E /* VirtualObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DECD239A1F1CD67500A9607E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DECD23691F1CD49300A9607E /* Main.storyboard */,
+				DECD236E1F1CD49300A9607E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DECD239B1F1CD67C00A9607E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DECD23671F1CD49300A9607E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DECD239C1F1CD68300A9607E /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				DECD23931F1CD55B00A9607E /* CameraConfig.swift */,
+				DECD23951F1CD58E00A9607E /* ARCameraTrackingState.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		DECD239D1F1CD68B00A9607E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECD23A11F1CD7F000A9607E /* Info.plist */,
+				DECD239E1F1CD79400A9607E /* AppDelegate.swift */,
+				DECD23651F1CD49300A9607E /* art.scnassets */,
+				DECD236C1F1CD49300A9607E /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECD235F1F1CD49300A9607E /* ARKitPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECD238A1F1CD49300A9607E /* Build configuration list for PBXNativeTarget "ARKitPoc" */;
+			buildPhases = (
+				DECD235C1F1CD49300A9607E /* Sources */,
+				DECD235D1F1CD49300A9607E /* Frameworks */,
+				DECD235E1F1CD49300A9607E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitPoc;
+			productName = ARKitPoc;
+			productReference = DECD23601F1CD49300A9607E /* ARKitPoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DECD23751F1CD49300A9607E /* ARKitPocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECD238D1F1CD49300A9607E /* Build configuration list for PBXNativeTarget "ARKitPocTests" */;
+			buildPhases = (
+				DECD23721F1CD49300A9607E /* Sources */,
+				DECD23731F1CD49300A9607E /* Frameworks */,
+				DECD23741F1CD49300A9607E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECD23781F1CD49300A9607E /* PBXTargetDependency */,
+			);
+			name = ARKitPocTests;
+			productName = ARKitPocTests;
+			productReference = DECD23761F1CD49300A9607E /* ARKitPocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DECD23801F1CD49300A9607E /* ARKitPocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECD23901F1CD49300A9607E /* Build configuration list for PBXNativeTarget "ARKitPocUITests" */;
+			buildPhases = (
+				DECD237D1F1CD49300A9607E /* Sources */,
+				DECD237E1F1CD49300A9607E /* Frameworks */,
+				DECD237F1F1CD49300A9607E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECD23831F1CD49300A9607E /* PBXTargetDependency */,
+			);
+			name = ARKitPocUITests;
+			productName = ARKitPocUITests;
+			productReference = DECD23811F1CD49300A9607E /* ARKitPocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECD23581F1CD49300A9607E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = AppFoundry;
+				TargetAttributes = {
+					DECD235F1F1CD49300A9607E = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					DECD23751F1CD49300A9607E = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = DECD235F1F1CD49300A9607E;
+					};
+					DECD23801F1CD49300A9607E = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = DECD235F1F1CD49300A9607E;
+					};
+				};
+			};
+			buildConfigurationList = DECD235B1F1CD49300A9607E /* Build configuration list for PBXProject "ARKitPoc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECD23571F1CD49300A9607E;
+			productRefGroup = DECD23611F1CD49300A9607E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECD235F1F1CD49300A9607E /* ARKitPoc */,
+				DECD23751F1CD49300A9607E /* ARKitPocTests */,
+				DECD23801F1CD49300A9607E /* ARKitPocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECD235E1F1CD49300A9607E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECD23661F1CD49300A9607E /* art.scnassets in Resources */,
+				DECD23701F1CD49300A9607E /* LaunchScreen.storyboard in Resources */,
+				DECD236D1F1CD49300A9607E /* Assets.xcassets in Resources */,
+				DECD236B1F1CD49300A9607E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECD23741F1CD49300A9607E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECD237F1F1CD49300A9607E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECD235C1F1CD49300A9607E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECD23981F1CD5AE00A9607E /* VirtualObject.swift in Sources */,
+				DECD23681F1CD49300A9607E /* ViewController.swift in Sources */,
+				DECD23941F1CD55B00A9607E /* CameraConfig.swift in Sources */,
+				DECD23A21F1CD96D00A9607E /* AppDelegate.swift in Sources */,
+				DECD23961F1CD58E00A9607E /* ARCameraTrackingState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECD23721F1CD49300A9607E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECD237B1F1CD49300A9607E /* ARKitPocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECD237D1F1CD49300A9607E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECD23861F1CD49300A9607E /* ARKitPocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DECD23781F1CD49300A9607E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECD235F1F1CD49300A9607E /* ARKitPoc */;
+			targetProxy = DECD23771F1CD49300A9607E /* PBXContainerItemProxy */;
+		};
+		DECD23831F1CD49300A9607E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECD235F1F1CD49300A9607E /* ARKitPoc */;
+			targetProxy = DECD23821F1CD49300A9607E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DECD23691F1CD49300A9607E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECD236A1F1CD49300A9607E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DECD236E1F1CD49300A9607E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECD236F1F1CD49300A9607E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DECD23881F1CD49300A9607E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DECD23891F1CD49300A9607E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DECD238B1F1CD49300A9607E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25D2G7D8KE;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKitPoc/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfoundry.ARKitPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DECD238C1F1CD49300A9607E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25D2G7D8KE;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKitPoc/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfoundry.ARKitPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DECD238E1F1CD49300A9607E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 25D2G7D8KE;
+				INFOPLIST_FILE = ARKitPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfoundry.ARKitPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKitPoc.app/ARKitPoc";
+			};
+			name = Debug;
+		};
+		DECD238F1F1CD49300A9607E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 25D2G7D8KE;
+				INFOPLIST_FILE = ARKitPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfoundry.ARKitPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKitPoc.app/ARKitPoc";
+			};
+			name = Release;
+		};
+		DECD23911F1CD49300A9607E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 25D2G7D8KE;
+				INFOPLIST_FILE = ARKitPocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfoundry.ARKitPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKitPoc;
+			};
+			name = Debug;
+		};
+		DECD23921F1CD49300A9607E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 25D2G7D8KE;
+				INFOPLIST_FILE = ARKitPocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfoundry.ARKitPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKitPoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECD235B1F1CD49300A9607E /* Build configuration list for PBXProject "ARKitPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECD23881F1CD49300A9607E /* Debug */,
+				DECD23891F1CD49300A9607E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECD238A1F1CD49300A9607E /* Build configuration list for PBXNativeTarget "ARKitPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECD238B1F1CD49300A9607E /* Debug */,
+				DECD238C1F1CD49300A9607E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DECD238D1F1CD49300A9607E /* Build configuration list for PBXNativeTarget "ARKitPocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECD238E1F1CD49300A9607E /* Debug */,
+				DECD238F1F1CD49300A9607E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DECD23901F1CD49300A9607E /* Build configuration list for PBXNativeTarget "ARKitPocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECD23911F1CD49300A9607E /* Debug */,
+				DECD23921F1CD49300A9607E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DECD23581F1CD49300A9607E /* Project object */;
+}
